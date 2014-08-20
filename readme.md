@@ -2,4 +2,4 @@
 
 学习过程中的笔记
 
-1. [CoreJava笔记](corejava)
+1. [CoreJava笔记](corejava/index.md)
