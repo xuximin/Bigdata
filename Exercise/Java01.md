@@ -57,8 +57,8 @@
 			}else{
 				System.out.println("Error!");
 			}
-	   }
-       }
+	    }
+        }
 2. 定义两个整型变量n1,n2并赋给任意值。计算输出n1>n2，n1<n2，n1-n2>=0，n1-n2<=0，n1%n2= =0的值。
 
         public class Java01Test2 {
@@ -83,11 +83,12 @@
 			System.out.println("((n1 % n2) == 0) = " + e);
 			scanner.close();
 	     }
-       }
+    	   }
+
 
 3. 定义两个float 变量C、F。计算公式C=5/9（F-32），计算当F=60、F=90时，输出C 的值。
 
-       public class Java01Test3 {
+         public class Java01Test3 {
 	    	public static void main(String[] args) {
 				System.out.println("请输入C");
 				Scanner scanner = new Scanner(System.in);
