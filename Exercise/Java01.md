@@ -5,23 +5,23 @@
 3. B
 4. C
 5. D
-6. D
+6. D!C
 7. A
-8. A
+8. A!D
 9. D
-10. C
+10. C!D
 11. C
 12. D
 13. D
 14. A
-15. A
-16. A
+15. A!B
+16. A!D
 17. D
 18. A
-19. C
+19. C(题有问题)
 20. D
 21. A
-22. A
+22. AD
 
 ###填空题
 1. float型3.14156
@@ -74,7 +74,7 @@
 			boolean a = n1 > n2;
 			System.out.println("n1 > n2 = " + a);
 			boolean b = n1 < n2;
-			System.out.println("n1 < n2 = " + b);
+			System.out.println("n1 < n2 = " + b);	
 			boolean c = (n1 - n2) >= 0;
 			System.out.println("((n1 - n2)  >= 0) = " + c);
 			boolean d = (n1 - n2) <=0;
@@ -94,7 +94,7 @@
 				Scanner scanner = new Scanner(System.in);
 				String sf = scanner.nextLine();
 				float F = Float.parseFloat(sf);
-				float C = (5 / 9) * ( F - 32 );
+				float C = (5.0 / 9) * ( F - 32 );
 				System.out.println("C =  " +C);
 				scanner.close();
 			}

@@ -80,7 +80,7 @@
 		int day = 0;
 		switch(year % 400){
 		case 0:
-			temp=2;
+			temp=2; //temp =2时为闰年
 			
 			break;
 		default:
@@ -88,7 +88,7 @@
 			case 0:
 				switch( year % 100){
 				case 0:
-					temp=1;
+					temp=1; //temp=1 时不为闰年
 					
 					break;
 				default:
@@ -108,29 +108,37 @@
 		case 10:
 		case 12:
 			day = 31;
+			System.out.println(year+"年"+month+"月一共有"+day+"天");
+			
 			break;
 		case 4:
 		case 6:
 		case 9:
 		case 11:
 			day = 30;
+			System.out.println(year+"年"+month+"月一共有"+day+"天");
 			break;
-		default:
+		case 2:
 			switch(temp){
 			case 1:
 			case 0:
 				day = 28;
+				System.out.println(year+"年"+month+"月一共有"+day+"天");
 				break;
 			default:
+				
 				day = 29;
+				System.out.println(year+"年"+month+"月一共有"+day+"天");
 			}
-			
+			break;
+		default:
+				System.out.println("输入错误！");
+			}
+		
+		scanner.close();	
 		}
-		System.out.println(year+"年"+month+"月一共有"+day+"天");
-		scanner.close();
+		
 	  }
-			
-      }
 	  
 - 计算sum=1+2+3+4+5+…+100 使用for循环
 
