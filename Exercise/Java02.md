@@ -1,9 +1,9 @@
 ###JAVA02
 - 为考试成绩划定五个级别，当成绩大于或等于90分时，划定为优；当成绩大于或等于80且小于90时，划定为良；当成绩大于或等于70且小于80时，划定为中；当成绩大于或等于60且小于70时，划定为及格；当成绩小于60时，划定为差.使用if语句
 
-      public class Java02Test1 {
+         public class Java02Test1 {
 
-	   public static void main(String[] args) {
+	     public static void main(String[] args) {
 		//优>=90，良<90 &&>=80，中<80 && >=70，及格<70 &&>=60，差<60
 		System.out.println("请输入成绩");
 		Scanner scanner = new Scanner(System.in);
@@ -27,14 +27,14 @@
 			}
 		}
 		scanner.close();
-	  }
+	    }
 
-      }
+        }
 	  
 	  
 - 使用switch结构重写上面代码
 
-      public class Java02Test2 {
+        public class Java02Test2 {
 
 	    public static void main(String[] args) {
 			System.out.println("请输入你的成绩");
@@ -138,7 +138,7 @@
 		scanner.close();	
 		}
 		
-	  }
+	    }
 	  
 - 计算sum=1+2+3+4+5+…+100 使用for循环
 
