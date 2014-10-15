@@ -1,0 +1,101 @@
+【练习题】01.类的成员变量 猜数字游戏一个类A有一个成员变量v有一个初值100。定义一个类对A类的成员变量v进行猜。如果大了则提示大了小了则提示小了。等于则提示猜测成功。  
+
+【练习题】02.类的成员变量 请定义一个交通工具(Vehicle)的类其中有: 属性速度(speed)体积(size)等等 方法移动(move())设置速度(setSpeed(int speed))加速speedUp(),减速speedDown()等等. 最后在测试类Vehicle中的main()中实例化一个交通工具对象并通过方法给它初始化speed,size的值并且通过打印出来。另外调用加速减速的方法对速度进行改变。  
+
+【练习题】03.类的成员变量与方法、构造方法 在程序中经常要对时间进行操作但是并没有时间类型的数据。那么我们可以自己实现一个时间类来满足程序中的需要。 定义名为MyTime的类其中应有三个整型成员时hour分minute秒second为了保证数据的安全性这三个成员变量应声明为私有。 为MyTime类定义构造方法以方便创建对象时初始化成员变量。 再定义diaplay方法用于将时间信息打印出来。  为MyTime类添加以下方法 addSecond(int sec) addMinute(int min) addHour(int hou) subSecond(int sec) subMinute(int min) subHour(int hou) 分别对时、分、秒进行加减运算。  
+
+
+【练习题】04.构造方法 编写Java程序模拟简单的计算器。 定义名为Number的类其中有两个整型数据成员n1和n2应声明为私有。编写构造方法赋予n1和n2初始值再为该类定义加addition、减subtration、乘multiplication、除division等公有成员方法分别对两个成员变量执行加、减、乘、除的运算。 在main方法中创建Number类的对象调用各个方法并显示计算结果。  
+
+
+【练习题】05.构造方法 编写Java程序用于显示人的姓名和年龄。 定义一个人类Person该类中应该有两个私有属性姓名name和年龄age。定义构造方法用来初始化数据成员。再定义显示display方法将姓名和年龄打印出来。 在main方法中创建人类的实例然后将信息显示。  
+
+
+
+【练习题】06.get方法和set方法 定义一个类该类有一个私有成员变量通过构造方法将其进行赋初值并提供该成员的getXXX()和setXXX()方法 提示假设有private String name;则有 public void setName(String name){  this.name = name; }  public String getName(){  return this.name; }  
+
+
+【练习题】07.构造方法与重载 为“无名的粉”写一个类class WuMingFen 要求 1.有三个属性面码:String theMa  粉的分量(两)int quantity         是否带汤boolean likeSoup 2.写一个构造方法以便于简化初始化过程如  WuMingFen f1 = new WuMingFen("牛肉",3,true); 3.重载构造方法使得初始化过程可以多样化  WuMingFen f2 = new WuMingFen("牛肉",2); 4.如何使得下列语句构造出来的粉对象是酸辣面码、2两、带汤的  WuMingFen f3 = new WuMingFen(); 5.写一个普通方法check()用于查看粉是否符合要求。即将对象的三个属性打印在控制台上。   
+
+
+
+【练习题】08.构造方法的重载 定义一个名为Vehicles交通工具的基类该类中应包含String类型的成员属性brand商标和color颜色还应包含成员方法run行驶在控制台显示“我已经开动了”和showInfo显示信息在控制台显示商标和颜色并编写构造方法初始化其成员属性。 编写Car小汽车类继承于Vehicles类增加int型成员属性seats座位还应增加成员方法showCar在控制台显示小汽车的信息并编写构造方法。 编写Truck卡车类继承于Vehicles类增加float型成员属性load载重还应增加成员方法showTruck在控制台显示卡车的信息并编写构造方法。 在main方法中测试以上各类。  
+
+
+
+【练习题】09.构造方法与重载 定义一个网络用户类要处理的信息有用户ID、用户密码、email地址。在建立类的实例时把以上三个信息都作为构造函数的参数输入其中用户ID和用户密码时必须的缺省的email地址是用户ID加上字符串"@bigdata.com"  
+
+
+【练习题】10.构造方法与重载、包 编写Addition类该类中应包含一组实现两数相加运算的重载方法。 实现加法运算的方法应接受两个参数即加数和被加数方法将两个参数进行加法运算后返回相加结果。考虑可能针对不同的数据类型进行计算重载一组方法包括整型、长整型、浮点型、双精度浮点型、还有字符串。 在main方法中创建Addition类的实例分别调用重载方法测试其效果。 应将Addition类打入到包中以自己名字的拼音为包命名。  
+
+
+【练习题】11.构造方法与重载 将上次练习题三中编写的MyTime类打到以自己名字的拼音命名的包中并为该类重载一组构造方法以方便使用者能够以多种形式初始化该类的实例。
+  
+
+【练习题】12.构造方法与重载 建立一个汽车类包括轮胎个数汽车颜色车身重量等属性。并通过不同的构造方法创建事例。   至少要求汽车能够加速减速停车。     要求命名规范代码体现层次有友好的操作提示。
+
+
+  
+【练习题】13.构造方法与重载 创建一个类为该类定义三个构造函数分别执行下列操作   1、传递两个整数值并找出其中较大的一个值   2、传递三个double值并求出其乘积   3、传递两个字符串值并检查其是否相同   4、在main方法中测试构造函数的调用  
+
+
+【练习题】14.Static关键字与普通变量的区别 创建一个名称为StaticDemo的类并声明一个静态变量和一个普通变量。对变量分别赋予10和5的初始值。在main()方法中输出变量值。  
+
+
+【练习题】15.继承 创建一个名称为MainPackage的包使它包含MainClass和MainSubClass类。MainClass类应当包含变量声明其值从构造函数中输出。MainSubClass类从MainClass派生而来。试执行下列操作创建一个名称为SamePackage的类使它导入上述包并创建一个MainSubClass类的对象。  
+
+
+【练习题】16.包、继承、构造函数 创建一个名称为MainPackage的包使它包含MainClass和MainSubClass类。MainClass类应当包含变量声明其值从构造方法中输出。MainSubClass类从MainClass派生而来。试执行下列操作创建一个名称为SamePackage的类使它导入上述包并创建一个MainSubClass类的对象。   
+
+
+【练习题】17.继承 创建一个父类和子类父类有一个数据成员子类继承父类的该数据成员通过构造函数初始化并显示该数据成员的值。  
+
+ 
+
+【练习题】18.覆盖、继承 建立一个汽车Auto类包括轮胎个数汽车颜色车身重量、速度等成员变量。并通过不同的构造方法创建实例。至少要求  汽车能够加速减速停车。 再定义一个小汽车类Car继承Auto并添加空调、CD等成员变量覆盖加速减速的方法  
+
+
+
+【练习题】19.抽象类与继承 设计一个能细分为矩形、三角形、圆形和椭圆形的“图形”类。使用继承将这些图形分类找出能作为基类部分的共同特征(如校准点)和方法(如画法、初始化)并看看这些图形是否能进一步划分为子类。 本题只考虑实现思想不考虑具体实现的细节实现方式可自由发挥。
+
+
+  
+【练习题】20.抽象类 创建一个Vehicle类并将它声明为抽象类。在Vehicle类中声明一个NoOfWheels方法使它返回一个字符串值。创建两个类Car和Motorbike从Vehicle类继承并在这两个类中实现NoOfWheels方法。在Car类中应当显示“四轮车”信息而在Motorbike类中应当显示“双轮车”信息。创建另一个带main方法的类在该类中创建Car和Motorbike的实例并在控制台中显示消息。    
+
+
+      
+【练习题】21.抽象类 创建一个Vehicle类并将它声明为抽象类。在Vehicle类中声明一个NoOfWheels方法使它返回一个字符串值。创建两个类Car和Motorbike从Vehicle类继承并在这两个类中实现NoOfWheels方法。在Car类中应当显示“四轮车”信息而在Motorbike类中应当显示“双轮车”信息。创建另一个带main方法的类在该类中创建Car和Motorbike的实例并在控制台中显示消息。       
+
+
+   
+【练习题】22.接口 创建一个名称为Vehicle的接口在接口中添加两个带有一个参数的方法start()和stop()。在两个名称分别为Bike和Bus的类中实现Vehicle接口。创建一个名称为interfaceDemo的类在interfaceDemo的main()方法中创建Bike和Bus对象并访问start()和stop()方法。
+
+
+  
+【练习题】23.接口 创建一个名称为Vehicle的接口在接口中添加两个带有一个参数的方法start()和stop()。在两个名称分别为Bike和Bus的类中实现Vehicle接口。创建一个名称为interfaceDemo的类在interfaceDemo的main()方法中创建Bike和Bus对象并访问start()和stop()方法。  
+
+
+
+【练习题】24.抽象类、继承、接口综合 设计一个系统 XXX门的实现过程 流程 设计一张抽象的门Door那么对于这张门来说就应该拥有所有门的共性开门openDoor()和关门closeDoor()然后对门进行另外的功能设计,防盗--theftproof()、防水--waterproof()、防弹--bulletproof()、防火、防锈…… 要求利用继承、抽象类、接口的知识设计该门   
+
+
+
+【练习题】25.抽象类、继承、接口综合 设计一个系统 xxx纯净水生产线 目前流程是从某个地方把水取出来然后经过缓冲过滤加热和放糖的步骤 abstract 水{  public void 水(); } interface 过滤{} interface 缓冲{} interface 加热{} interface 放糖{}  class 纯净水1 extends 水 imps 过滤,缓冲{} class 纯净水2 extends 水 imps 缓冲{} class 纯净水2 extends 水 imps 过滤{} 。。。。 
+
+（重复上题的方法）
+ 
+【练习题】26.综合题 定义一个抽象的"Role"类有姓名年龄性别等成员变量 1. 要求尽可能隐藏所有变量(能够私有就私有,能够保护就不要公有)再通过GetXXX()和SetXXX()方法对各变量进行读写。具有一个抽象的play()方法该方法不返回任何值同时至少定义两个构造方法。Role类中要体现出this的几种用法。 2. 从Role类派生出一个"Employee"类该类具有Role类的所有成员构造方法除外并扩展 salary成员变量同时增加一个静态成员变量“职工编号ID”。同样要有至少两个构造方法要体现出this和super的几种用法还要求覆盖play()方法并提供一个final sing()方法。 3. "Manager"类继承"Employee"类有一个final成员变量"vehicle" 4. 在main()方法中制造Manager和Employee对象,并测试这些对象的方法  
+
+
+【练习题】27.综合题 题目品尝饮料 
+二、 要求 1、使用命令行参数饮料类型输出该饮料类型的味道如当命令行参数为1时结果见图1   2、如果没有该种饮料结果见如图2   
+三、 推荐实现步骤 
+1、建立一个Java抽象类Drink应当 a、声明一个抽象方法taste()该方法负责输出饮料的味道 b、声明int型常量来代表不同的饮料类型咖啡、啤酒、牛奶如 c、声明静态工厂方法getDrink(int drinkType)根据传入的参数创建不同的饮料对象并返回该对象建议使用switch语句。该方法要求声明DrinkNotFoundException当没有相对应的饮料类型时抛出该异常。 
+2、建立Drink的具体子类 a、分别建立Drink的子类Coffee代表咖啡Beer代表啤酒Milk代表牛奶; b、实现taste()方法要求在控制台打印各自的味道特征。 
+3、建立异常类DrinkNotFoundException a、继承Exception b、在Drink的 方 法getDrink(int drinkType)中 声 明 引 发DrinkNotFoundException异常当传入的参数没有相对应的饮料类型时抛出异常。 c、在使用getDrink方法的类中捕捉该异常。 
+4、建立Test测试类测试以上内容的正确性 a、编写main方法通过命令行传参的方式传入某种饮料的类型。 b、在main方法中调用Drink类的getDrink方法获得相应的饮料对象。注意捕获DrinkNotFoundException。 c、然后调用该饮料对象的taste()方法输出该饮料的味道。 
+5、编译程序并运行。  
+四、 注意事项 
+1、仔细审题把题目要求理解准确 
+2、请注意多态性的运用 
+3、请注意代码的书写、命名符合规范应有适当的注释。   
