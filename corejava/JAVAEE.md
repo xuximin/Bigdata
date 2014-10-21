@@ -1,8 +1,12 @@
 #Java EE学习粗略路线
+####准备
+[Java 环境配置](day01/1.1.md)
+
 ####1. JAVA SE
 ***
 __Java基础__
 - 基本语法
+ - [JAVA的基本数据类型](JAVAshujuleixing.md)
 - 面向对象（*）
 - 集合框架（*）
 
